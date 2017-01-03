@@ -4,7 +4,6 @@ const path = require('path');
 // by default we want to run against the current commit
 let command = `git diff-tree --no-commit-id --name-only -r ${process.env.TRAVIS_COMMIT}`
 
-console.log(command, commitRange, process.env.TRAVIS_BRANCH, process.env.TRAVIS_COMMIT, process.env.TRAVIS_COMMIT_RANGE);
 // if we're not on master
 if (process.env.TRAVIS_BRANCH !== 'master') {
   command = `git diff --name-only master`;
