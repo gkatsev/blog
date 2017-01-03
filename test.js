@@ -6,7 +6,7 @@ let command = `git diff-tree --no-commit-id --name-only -r ${process.env.TRAVIS_
 
 console.log(command, commitRange, process.env.TRAVIS_BRANCH, process.env.TRAVIS_COMMIT, process.env.TRAVIS_COMMIT_RANGE);
 // if we're not on master
-if (process.env.TRAVIS_BRANCH !== 'master' && commitRange) {
+if (process.env.TRAVIS_BRANCH !== 'master') {
   command = `git diff --name-only master`;
 }
 
