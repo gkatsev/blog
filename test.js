@@ -29,6 +29,8 @@ console.log(SINGLE_COMMIT, '\n', singleout);
 console.log(COMMIT_RANGE, '\n', rangeout);
 console.log(PR_DIFF, '\n', prout);
 
+sh.exec('git log');
+
 //const files = output.split('\n').filter(Boolean);
 
 //console.log(output, files);
