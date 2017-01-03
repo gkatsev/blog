@@ -1,5 +1,3 @@
 const sh = require('shelljs');
 
-sh.exec('git diff master');
-
-console.log(JSON.stringify(process.env, null, 2));
+sh.exec(`git diff --name-only ${process.env.TRAVIS_COMMIT_RANGE}`);
