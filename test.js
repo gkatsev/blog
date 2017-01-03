@@ -18,6 +18,7 @@ const output = sh.exec(command, {async: false, silent: true}).stdout;
 
 const files = output.split('\n').filter(Boolean);
 
+console.log(files);
 if (files.every((file) => file.startsWith('docs') || path.extname(file) === '.md')) {
   console.log('!!!!');
 } else {
