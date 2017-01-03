@@ -3,8 +3,8 @@ const path = require('path');
 
 // by default we want to run against the current commit
 const SINGLE_COMMIT = `git diff-tree --no-commit-id --name-only -r ${process.env.TRAVIS_COMMIT}`
-const COMMIT_RANGE = `git diff --name-only ${process.env.TRAVIS_COMMIT_RANGE} master`;
-const PR_DIFF = `git diff --name-only ${process.env.TRAVIS_PULL_REQUEST_BRANCH} master`;
+const COMMIT_RANGE = `git diff --name-only ${process.env.TRAVIS_COMMIT_RANGE}`;
+const PR_DIFF = `git diff --name-only ${process.env.TRAVIS_PULL_REQUEST_BRANCH}`;
 
 console.log(process.env.TRAVIS_BRANCH, process.env.TRAVIS_PULL_REQUEST, process.env.TRAVIS_PULL_REQUEST_BRANCH, process.env.TRAVIS_COMMIT, process.env.TRAVIS_COMMIT_RANGE);
 
