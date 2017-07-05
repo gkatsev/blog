@@ -69,5 +69,7 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/gkatsev/blog
+  repo: git@github.com:gkatsev/blog
   branch: gh-pages
+  keep_history: true
+  verbose: true
