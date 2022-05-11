@@ -5,6 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
+    "11ty": "eleventy"
   },
   "repository": {
     "type": "git",
@@ -14,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gkatsev/blog/issues"
   },
-  "homepage": "https://github.com/gkatsev/blog#readme"
+  "homepage": "https://github.com/gkatsev/blog#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  }
 }
