@@ -28,14 +28,18 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(syntaxHighlight);
 
-  // setup mermaid markdown highlighter
-  const highlighter = eleventyConfig.markdownHighlighter;
-  eleventyConfig.addMarkdownHighlighter((str, language) => {
-    if (language === 'mermaid') {
-      return `<pre class="mermaid">${str}</pre>`;
-    }
-    return highlighter(str, language);
+  // plugins seem to be async now, so, make the mermaid thing a mini plugin as well
+  eleventyConfig.addPlugin((eleventyConfig, options = {}) => {
+    // setup mermaid markdown highlighter
+    const highlighter = eleventyConfig.markdownHighlighter;
+    eleventyConfig.addMarkdownHighlighter((str, language) => {
+      if (language === 'mermaid') {
+        return `<pre class="mermaid">${str}</pre>`;
+      }
+      return highlighter(str, language);
+    });
   });
+
 
   eleventyConfig.setDataDeepMerge(true);
   eleventyConfig.addPassthroughCopy({ 'src/images': 'images' });
