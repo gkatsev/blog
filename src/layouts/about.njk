@@ -4,6 +4,8 @@ layout: base.njk
 
 <div class="about">
   <h1>About {{ name }}</h1>
+  {% if image or url %}
   <img src="{{ image | url }}" alt="" class="about__image">
+  {% endif %}
   {{ content | safe }}
 </div>
