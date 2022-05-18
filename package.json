@@ -29,6 +29,7 @@
     "webpack-manifest-plugin": "^5.0.0"
   },
   "scripts": {
+    "post": "./new-post.sh",
     "dev": "run-p dev:*",
     "start": "eleventy --serve",
     "build": "run-s clean build:assets build:site",
