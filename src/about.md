@@ -1,14 +1,11 @@
 ---
-title: About Aidan Charles Powell
+title: About Gary
 layout: about.njk
-name: Aidan Charles Powell
-image: '/images/me.jpeg'
+name: Gary Katsevman
 ---
 
-Aidan Charles Powell is a 23-year-old health centre receptionist who enjoys watching television, eating out and social media. He is generous and giving, but can also be very rude and a bit lazy.
+I'm a Software Developer specializing in web-based video players with a focus on accessibility and subtitles.
 
-He is a Jedi who defines himself as straight. He has a degree in medicine. He is a vegetarian. He is obsessed with vintage dresses.
+I'm a Chair of the [Timed Text Working Group](https://www.w3.org/AudioVideo/TT/) and an editor of the [WebVTT specification](https://github.com/w3c/webvtt).
 
-He grew up in a middle class neighbourhood. After his mother died when he was young, he was raised by his father
-
-He is currently married to Maureen Erika Quinn. Maureen is 13 years older than him and works as a sales assistant.
+In my spare time, I read books and manga; watch movies, TV, and anime; and cook.
