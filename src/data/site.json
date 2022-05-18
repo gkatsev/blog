@@ -1,11 +1,10 @@
 {
-  "name": "Eleventy Duo",
-  "description": "Eleventy Duo is a minimal and beautiful Eleventy theme for personal blogs.",
-  "url": "https://eleventyduo.netlify.app",
+  "name": "Gary Katsevman",
+  "description": "This is my personal blog.",
+  "url": "https://blog.gkatsev.com",
   "author": {
-    "name": "Author Name",
-    "email": "author@site.com",
-    "twitterHandle": "author_handle"
+    "name": "Gary Katsevman",
+    "twitterHandle": "gkatsev"
   },
   "defaultSocialImage": "/images/default-social-image.png",
   "headerLinks": [
@@ -23,17 +22,17 @@
   "socialLinks": [
     {
       "text": "Instagram",
-      "url": "https://instagram.com/",
+      "url": "https://instagram.com/gkatsevman",
       "external": true
     },
     {
       "text": "GitHub",
-      "url": "https://github.com/yinkakun/eleventy-duo",
+      "url": "https://github.com/gkatsev",
       "external": true
     },
     {
       "text": "Twitter",
-      "url": "https://twitter.com/",
+      "url": "https://twitter.com/gkatsev",
       "external": true
     }
   ],
