@@ -45,6 +45,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ 'src/images': 'images' });
   eleventyConfig.setBrowserSyncConfig({ files: [manifestPath] });
 
+  eleventyConfig.addShortcode('twitter', function () {
+    return '[@gkatsev](https://twitter.com/gkatsev)';
+  });
+
   eleventyConfig.addShortcode('bundledcss', function () {
     return manifest['main.css']
       ? `<link href="${manifest['main.css']}" rel="stylesheet" />`
