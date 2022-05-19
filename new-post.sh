@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 echo "---
-title: CHANGE MY TITLE
+title: $@
 description: Add a description
 permalink: posts/{{ title | slug }}/index.html
 date: Last Modified
