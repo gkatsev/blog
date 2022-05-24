@@ -26,12 +26,13 @@
 }
 
 .site-title a {
-  color: rgb(6 6 6);
+  color: var(--color-title);
   text-decoration: none;
 }
 
-.site-title a:hover {
-  color: rgb(41, 41, 41);
+.site-title a:hover,
+.site-title a:focus {
+  color: var(--accent);
 }
 
 .nav__list {
@@ -44,7 +45,7 @@
 }
 
 .nav__list a {
-  color: rgb(117, 117, 117);
+  color: var(--color-secondary);
   text-decoration: none;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -58,6 +59,7 @@
   margin-right: 0;
 }
 
-.nav__list a:hover {
-  color: rgb(41, 41, 41);
+.nav__list a:hover,
+.nav__list a:focus {
+  color: var(--accent);
 }
