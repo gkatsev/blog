@@ -1,5 +1,5 @@
-@import 'global.css';
 @import 'variable.css';
+@import 'global.css';
 @import 'prism-theme.css';
 @import 'typography.css';
 @import 'post-list.css';
@@ -21,14 +21,15 @@
   flex-direction: column;
   padding-left: 1rem;
   padding-right: 1rem;
-  min-width: 45rem;
-  max-width: 57.5rem;
+  min-width: var(--min-width);
+  max-width: var(--max-width);
   margin-left: auto;
   margin-right: auto;
 }
 
+/* can use --min-width var in the media query */
 @media (max-width:  45rem) {
   .main {
-    min-width: 20rem;
+    min-width: var(--min-width-small);
   }
 }
