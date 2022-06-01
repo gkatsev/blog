@@ -2,7 +2,7 @@
 title: Relaunching My blog
 description: Relaunching my blog and a short technical description
 permalink: posts/{{ title | slug }}/index.html
-date: Last Modified
+date: 2022-05-24
 tags: []
 ---
 Recently, a friend asked me a question around some gear I have that I've had trouble finding in my order history, and I've had trouble finding it previously. This reminded a comment from [Scott Hanselman](https://www.hanselman.com/blog/) (I've lost where, unfortunately, though, I think perhaps on one of this videos somewhere?) where he mentioned that one of the reasons he blogs is to keep a record of things for himself to see later.
