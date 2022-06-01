@@ -4,6 +4,6 @@ echo "---
 title: $@
 description: Add a description
 permalink: posts/{{ title | slug }}/index.html
-date: Last Modified
+date: git Last Modified
 tags: [default]
 ---" > src/posts/$@.md

@@ -2,7 +2,7 @@
 title: My Microphone Setup
 description: How I got to my current microphone setup
 permalink: posts/{{ title | slug }}/index.html
-date: Last Modified
+date: git Last Modified
 tags: [lists, audio]
 ---
 Originally, this post was about all my various audio-gear. However, I ended up writing a lot more about my micrphone setup, I'll leave the rest of my audio-gear for another post.
