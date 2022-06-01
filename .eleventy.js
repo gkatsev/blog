@@ -88,6 +88,13 @@ module.exports = function (eleventyConfig) {
     return array.slice(0, n);
   });
 
+  const isLivePost = (post) => !post.data.draft;
+
+  // draft posts from https://remysharp.com/2019/06/26/scheduled-and-draft-11ty-posts
+  eleventyConfig.addCollection('posts', (collection) => {
+    return collection.getFilteredByGlob('./src/posts/*.md').filter(isLivePost);
+  });
+
   eleventyConfig.addCollection('tagList', function (collection) {
     let tagSet = new Set();
     collection.getAll().forEach(function (item) {
