@@ -45,6 +45,18 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ 'src/images': 'images' });
   eleventyConfig.setBrowserSyncConfig({ files: [manifestPath] });
 
+  const nows = (strs, ...items) => strs.reduce((acc, str, i) => acc+str.trim() + (items[i] ?? ''), '');
+  eleventyConfig.addShortcode('citedimage', function(img, url, alt, cite) {
+    return nows`
+      <a href="${url}">
+        <div style="width:300px; margin-inline:auto; text-align:center;">
+          <img src="${img}" alt="${alt}">
+          <cite>${cite}</cite>
+        </div>
+      </a>
+    `;
+  });
+
   eleventyConfig.addShortcode('twitter', function () {
     return '[@gkatsev](https://twitter.com/gkatsev)';
   });
