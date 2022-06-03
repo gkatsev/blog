@@ -40,12 +40,8 @@ Through some research, my initial contenders were:
 - the PreSonus Revelator Dynamic USB Microphone.
 
 ## Samson Q9U
-<a href="http://www.samsontech.com/samson/products/microphones/dynamic-microphones/q9u/">
-  <div style="width:300px; margin-inline:auto; text-align:center;">
-    <img src="/images/samson-q9u.jpg" alt="the Samson Q9U microphone">
-    <cite>Image: Samson</cite>
-  </div>
-</a>
+{% citedimage "/images/samson-q9u.jpg", "http://www.samsontech.com/samson/products/microphones/dynamic-microphones/q9u/", "the Samson Q9U microphone", "Image: Samson" %}
+
 After talking with [Ed Ropple (of Zoom like you mean it fame)](https://www.mux.com/blog/zoom-like-you-mean-it-1), I ended up going with the Samson Q9U (thanks Ed!). It had a physical button that you could tell or feel whether the microphone was muted or not. It had both a USB connection and an XLR port, which is also why I initially was looking at the Shure MV7. USB connection for now and the XLR port should I ever want to upgrade my setup.
 
 When I got it, the Q9U was pretty nice. It had a mute button that clicked in when muted, so, you could tell when it was muted or not. It also had an audio-out which mixed the microphone monitoring with the computer audio, which is great.
@@ -69,6 +65,7 @@ In addition, there were lots of other features on the mic that I probably wouldn
 
 ## Elgato XLR
 {% citedimage "/images/elgato-xlr.webp", "https://www.elgato.com/en/wave-xlr", "Elgato XLR audio interface", "Image: Elgato" %}
+
 Since the Shure MV7 is even more pricey, I decided to see if maybe a USB audio-interface would solve my issues. Originally, I was considering the Audient Evo 4 or the Focusrite Scarlett Solo. The Evo 4 is nice due to the auto-gain button. However, it doesn't have a super simple way of muting (you have to press and hold the input buttons). The Scarlett Solo doesn't seem to have a way of muting either. In addition, due to my desk setup, I would've preferred all the cables coming out from the back of the device, where-as these devices had connectors both on the front and the back. And a minor quibble, but they were 1/4" headphone jacks, where I would prefer the 3.5mm 1/8" jacks.
 
 I had seen the Elgato XLR, but wasn't sure whether I'd want to get it because it double my whole cost, but I found a refurbished version that brought the cost down to match the Scarlett and the Evo 4. With Podcastage's qualified recommendation, I decided to try it out.
