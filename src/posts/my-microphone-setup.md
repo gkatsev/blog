@@ -18,8 +18,11 @@ Originally, this post was about all my various audio-gear. However, I ended up w
 Shortly after beginning quarantine mid-march of 2020, I decided that I needed to upgrade my audio. Both because doing full-time remote and because playing with microphones would be fun.
 
 ## Blue Yeti
+{% citedimage "/images/blue-yeti.png", "https://www.bluemic.com/en-us/products/yeti/", "Blue Yeti microphone", "Image: Blue" %}
+
 Without a whole lot of research at the time, I ended up buying Blue's Yeti kit which includes their Compass Arm and their shock mount. This served me pretty well for 2 years before I decided to upgrade my microphone.
 My main issue is that in my apartment, the Yeti picks up basically everything even with the gain turned all the way down and that's more or less par-the-course for condenser type microphones -- I did put a foam windscreen on it, which I think helped a tiny bit, but definitely not enough. So, I wanted to upgrade to a dynamic microphone and that was more of an ordeal than I expected.
+Ultimately, I think the Blue Yeti is _fine_. But I definitely wouldn't recommend it to anyone, particularly if you don't have a separated office. See https://dontbuyayeti.com/ which was setup recently.
 
 My desk setup includes two monitors and there's my desktop computer as well as my work laptop. Each machine is hooked up separately into each monitor and I used to have a dedicated USB-switch as well. This meant that switching machines would require changing the input on each monitor and then switching the USB switch. Recently, I upgrade one of my monitors which has a built-in USB-switch that auto-switched depending on the input. This worked great with the Blue Yeti.
 
@@ -37,6 +40,12 @@ Through some research, my initial contenders were:
 - the PreSonus Revelator Dynamic USB Microphone.
 
 ## Samson Q9U
+<a href="http://www.samsontech.com/samson/products/microphones/dynamic-microphones/q9u/">
+  <div style="width:300px; margin-inline:auto; text-align:center;">
+    <img src="/images/samson-q9u.jpg" alt="the Samson Q9U microphone">
+    <cite>Image: Samson</cite>
+  </div>
+</a>
 After talking with [Ed Ropple (of Zoom like you mean it fame)](https://www.mux.com/blog/zoom-like-you-mean-it-1), I ended up going with the Samson Q9U (thanks Ed!). It had a physical button that you could tell or feel whether the microphone was muted or not. It had both a USB connection and an XLR port, which is also why I initially was looking at the Shure MV7. USB connection for now and the XLR port should I ever want to upgrade my setup.
 
 When I got it, the Q9U was pretty nice. It had a mute button that clicked in when muted, so, you could tell when it was muted or not. It also had an audio-out which mixed the microphone monitoring with the computer audio, which is great.
@@ -59,6 +68,7 @@ Unfortunately, the big issue was with the mic's integration with Mac (and I thin
 In addition, there were lots of other features on the mic that I probably wouldn't use, even though they are pretty cool. The preset button, for example. So, I returned it.
 
 ## Elgato XLR
+{% citedimage "/images/elgato-xlr.webp", "https://www.elgato.com/en/wave-xlr", "Elgato XLR audio interface", "Image: Elgato" %}
 Since the Shure MV7 is even more pricey, I decided to see if maybe a USB audio-interface would solve my issues. Originally, I was considering the Audient Evo 4 or the Focusrite Scarlett Solo. The Evo 4 is nice due to the auto-gain button. However, it doesn't have a super simple way of muting (you have to press and hold the input buttons). The Scarlett Solo doesn't seem to have a way of muting either. In addition, due to my desk setup, I would've preferred all the cables coming out from the back of the device, where-as these devices had connectors both on the front and the back. And a minor quibble, but they were 1/4" headphone jacks, where I would prefer the 3.5mm 1/8" jacks.
 
 I had seen the Elgato XLR, but wasn't sure whether I'd want to get it because it double my whole cost, but I found a refurbished version that brought the cost down to match the Scarlett and the Evo 4. With Podcastage's qualified recommendation, I decided to try it out.
@@ -70,5 +80,8 @@ I did have similar audio and USB issues with the Elgato XLR as on the Samson Q9U
 
 # Final Setup
 So, finally, my setup is a Samson Q9U plugged into the Elgato XLR via an XLR cable. The Elgato XLR is connected to both my computers via a USB-switch. I also have a 3.5mm audio jack extender hooked up to it and snaked under my table so that I can switch headphones. Though, my daily drivers right now are the Audio-Technica ATH-E50 (I was going to include headphones in this post, but this post is getting pretty long already; stay tuned!).
+
+I still would love to get a Shure Super 55 because of the _aesthetics_.
+{% citedimage "/images/shure-super-55.png", "https://www.shure.com/en-US/products/microphones/super_55", "the Shure Super 55 microphoe", "Image: Shure" %}
 
 What's your setup like? Let me know on {% twitter %}!
